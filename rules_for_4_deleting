@@ -1,0 +1,10 @@
+a q1 -> a q2 R .
+a q2 -> * q3 L .
+a q3 -> * q3 R .
+* q3 -> a no STOP .
+b q2 -> * q3 L .
+b q1 -> b q4 R .
+b q4 -> * q5 L .
+b q5 -> * q5 R .
+* q5 -> b no STOP .
+a q4 -> * q5 L .
