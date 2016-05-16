@@ -1,0 +1,9 @@
+1 q1 -> 1 q1 R
+0 q1 -> 0 q1 R
+* q1 -> * q2 L
+1 q2 -> 0 q3 L
+0 q2 -> 0 q2 L
+* q2 -> * no STOP
+* q3 -> 1 no STOP
+0 q3 -> 1 q2 L
+1 q3 -> 1 q3 L
